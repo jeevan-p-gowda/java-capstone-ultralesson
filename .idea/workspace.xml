@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c3acc59-f03e-4941-bdce-fb2b87b07aab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/FruitBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/FruitBowl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/Fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/Seggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Offers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/eWallet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JiSJvu05MWFjo54kYS3heuQlAV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/testvagrant/Desktop/Capstone_Java/src/main/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c3acc59-f03e-4941-bdce-fb2b87b07aab" name="Changes" comment="" />
+      <created>1672559344086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672559344086</updated>
+    </task>
+    <servers />
+  </component>
+</project>
