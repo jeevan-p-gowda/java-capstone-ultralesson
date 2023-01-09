@@ -2,56 +2,61 @@ package Capstone.ShoppingCart;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class Cart {
-    List<Products> prod;
-    List<Integer> allPrice=new ArrayList<>();
-    int totalAmount;
-    Scanner sc;
+    List<Item> items;//hashmap
 
-    Cart(List<Products> prod,Scanner sc) {
-        this.prod = prod;
-        this.sc = sc;
-    }
-    public void getDetails() {
-        System.out.println("-:Available items for shopping:-\n" +
-                prod.stream().collect(Collectors.toList()));
+    Cart() {
+        this.items = new ArrayList<>();
     }
 
-   public void addItem() {
-        for (int q = 0; q <= prod.size() - 1; q++) {
-            String item = prod.stream().map(i -> i.item).collect(Collectors.toList()).get(q);
-            System.out.printf("Enter Qty for %s to add: ", item);
-             int qty=sc.nextInt();
+    private Item getItemByName(String itemName) {
 
-                    int price = prod.stream()
-                    .filter(i -> i.item.equalsIgnoreCase(item))
-                    .map(i -> i.price * qty).collect(Collectors.toList()).get(0);
-            allPrice.add(price);
+        List<Item> list = items.stream()
+                .filter(item -> item.getItem().equalsIgnoreCase(itemName))
+                .toList();
 
-            Offers offer=new Offers();
-            offer.checkOffer(item,qty);
-
-            System.out.printf("%s Qty-%s Price-Rs.%s%n\n",item,qty,price);
-        }
-    }
-    public void totalAmount(){
-        totalAmount = allPrice.stream()
-                .reduce((value, combinedvalue) -> {
-                    return combinedvalue + value;
-                }).get();
-        System.out.println("Total amount : Rs "+totalAmount);
-    }
-    public void payableAmount (Payment method){
-        method.pay(totalAmount);
+        return list.get(0);
     }
 
+    private boolean isItemPresent(String itemName) {
+
+        List<Item> list = items.stream()
+                .filter(item -> item.getItem().equalsIgnoreCase(itemName))
+                .toList();
+
+        return list.size() == 1;
+    }
+
+   public void addItem(Item item) {
+
+       boolean itemPresent = isItemPresent(item.getItem());
+
+       if(itemPresent) {
+           Item p = getItemByName(item.getItem());
+           p.increaseQuantityBy(item.getQuantity());
+       }
+       else {
+           items.add(item);
+       }
+    }
+
+    public List<Item> getItems(){
+        return items;
+    }
 }
 
-
-
-
-
-
+//    Scanner sc=new Scanner(System.in);
+//        for (int q = 0; q <= item.size() - 1; q++) {
+//            String item = item.stream().map(i -> i.getItem()).toList().get(q);
+//            System.out.printf("Enter Qty for %s to add: ", item);
+//             int qty=sc.nextInt();
+//
+//                    int price = item.stream()
+//                    .filter(i -> i.getItem().equalsIgnoreCase(item))
+//                    .map(i -> i.getCost() * qty).toList().get(0);
+//                    allPrice=new ArrayList<>();
+//            allPrice.add(price);
+//
+//            System.out.printf("%s Qty-%s Price-Rs.%s%n\n",item,qty,price);
+//        }
