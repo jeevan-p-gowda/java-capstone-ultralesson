@@ -1,7 +1,5 @@
 package Capstone.ShoppingCart;
 
-import java.util.ArrayList;
-
 public class Delivery {
     public static void main(String[] args) {
 
@@ -22,8 +20,9 @@ public class Delivery {
         CheckOffer checkOffer=new CheckOffer(Milk);
         checkOffer.getOffer(new MilkOffer());
 
+        Discount discount = new Discount();
         Payment payment = new Payment(bill);
-        payment.payAmountBy(new eWallet());
+        payment.payAmountBy(new eWallet(discount));
     }
     }
 

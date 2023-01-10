@@ -14,7 +14,6 @@ public class FruitBowl {
         fruit.add(new Fruit("WaterMelon", "Big","Green"));
         fruit.add(new Fruit("MuskMelon", "Big","Orange"));
         fruit.add(new Fruit("Papaya", "Big","Green"));
-        fruit.add(new Fruit("Somefruit", "Large","Green"));
 
         Segregator segregator=new Segregator(fruit);
 

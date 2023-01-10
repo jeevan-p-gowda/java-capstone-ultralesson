@@ -5,7 +5,6 @@ public class Payment {
     public Payment(Bill bill) {
         this.bill = bill;
     }
-
     public void payAmountBy(Pay method){
         method.pay(bill.getTotalPrice());
     }

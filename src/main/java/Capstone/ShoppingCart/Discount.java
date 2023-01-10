@@ -4,8 +4,8 @@ public class Discount {
     private double discountPercent;
     private double discountPrice;
 
-    public Discount(double discountPercent) {
-        this.discountPercent = discountPercent;
+    public Discount() {
+        this.discountPercent = 0.05;
     }
 
     public void setDiscountPrice(int totalPrice) {
@@ -25,8 +25,7 @@ public class Discount {
             setDiscountPrice(totalAmount);
             return totalAmount - getDiscountPrice();
         } else {
-
+            return totalAmount;
         }
-        return 0;
     }
 }
