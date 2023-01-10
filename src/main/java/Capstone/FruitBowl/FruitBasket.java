@@ -1,23 +1,14 @@
 package Capstone.FruitBowl;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class FruitBasket {
-    public static void main(String[] args) {
 
-        List<Fruit> fruit = new ArrayList<>();
-        fruit.add(new Fruit("Grapes", "Small","Green"));
-        fruit.add(new Fruit("Strawberry", "Small","Red"));
-        fruit.add(new Fruit("Apple", "Medium","Red"));
-        fruit.add(new Fruit("Orange", "Medium","Orange"));
-        fruit.add(new Fruit("WaterMelon", "Big","Green"));
-        fruit.add(new Fruit("MuskMelon", "Big","Orange"));
-        fruit.add(new Fruit("Papaya", "Big","Green"));
+    private String layer;
 
-        Segregator segregator=new Segregator(fruit);
+    public FruitBasket(String layer) {
+        this.layer = layer;
+    }
 
-        segregator.fruitBasket(fruit);
-
+    public String getLayer(){
+        return layer;
     }
 }
