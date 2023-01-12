@@ -12,20 +12,18 @@ public class Discount {
         this.discountPrice = getDiscountPercent() * totalPrice;
     }
 
+
     public double getDiscountPercent() {
         return discountPercent;
     }
 
-    public double getDiscountPrice() {
-        return discountPrice;
-    }
-
-    public double getDiscountedPrice(int totalAmount) {
+    public double getDiscountPrice(int totalAmount) {
         if (totalAmount > 100) {
             setDiscountPrice(totalAmount);
-            return totalAmount - getDiscountPrice();
+            return discountPrice;
         } else {
-            return totalAmount;
+            return 0;
         }
     }
+
 }

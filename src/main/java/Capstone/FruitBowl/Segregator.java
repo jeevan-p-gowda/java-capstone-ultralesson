@@ -13,11 +13,11 @@ public class Segregator {
     }
     public void fruitBasket(List<Fruit> fruit) {
         System.out.println("--Arranged based on sizes--");
-            for (String size : fruitBySize) {
-                fruitBasket=new FruitBasket(size);
-                List<String> fruitSize = fruit.stream()
-                        .filter(f -> f.getSize().equalsIgnoreCase(size)).map(f -> f.getFruit()).toList();
-                    System.out.printf("Place %s in %s layer of basket%n", fruitSize,fruitBasket.getLayer());
-            }
+        for (String size : fruitBySize) {
+            fruitBasket=new FruitBasket(size);
+            List<String> fruitSize = fruit.stream()
+                    .filter(f -> f.getSize().equalsIgnoreCase(size)).map(f -> f.getFruit()).toList();
+            System.out.printf("Place %s in %s layer of basket%n", fruitSize,fruitBasket.getLayer());
+        }
         }
     }

@@ -1,7 +1,9 @@
 package Capstone.FruitBowl;
 
-public class FruitBasket {
+import java.util.Arrays;
+import java.util.List;
 
+public class FruitBasket {
     private String layer;
 
     public FruitBasket(String layer) {

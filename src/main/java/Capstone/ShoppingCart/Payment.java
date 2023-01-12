@@ -6,6 +6,7 @@ public class Payment {
         this.bill = bill;
     }
     public void payAmountBy(Pay method){
+        System.out.printf("Total amount is Rs:%s%n",bill.getTotalPrice());
         method.pay(bill.getTotalPrice());
     }
 }

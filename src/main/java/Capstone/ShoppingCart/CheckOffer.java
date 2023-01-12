@@ -1,11 +1,13 @@
 package Capstone.ShoppingCart;
 
+import java.util.List;
+
 public class CheckOffer {
-    Item item;
-    public CheckOffer(Item item) {
+    List<Item> item;
+    public CheckOffer(List<Item> item) {
         this.item = item;
     }
     void getOffer(Offer forItem){
-        forItem.offer(item.getItem(), item.getQuantity());
+        forItem.offer(item);
     }
 }

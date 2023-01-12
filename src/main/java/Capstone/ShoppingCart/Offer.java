@@ -1,5 +1,7 @@
 package Capstone.ShoppingCart;
 
+import java.util.List;
+
 public interface Offer {
-    void offer(String item,int qty);
+    void offer(List<Item> item);
 }

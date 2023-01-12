@@ -17,10 +17,12 @@ public class Delivery {
         Bill bill = new Bill(cart.getItems());
         bill.getAddedItemDetails();
 
-        CheckOffer checkOffer=new CheckOffer(Milk);
-        checkOffer.getOffer(new MilkOffer());
+
+        CheckOffer checkOffer=new CheckOffer(cart.getItems());
+        checkOffer.getOffer(new availOffer());
 
         Discount discount = new Discount();
+
         Payment payment = new Payment(bill);
         payment.payAmountBy(new eWallet(discount));
     }

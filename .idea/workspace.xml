@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3acc59-f03e-4941-bdce-fb2b87b07aab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/FruitBowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/FruitBowl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/FruitBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/FruitBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/Segregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/FruitBowl/Segregator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/CheckOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/CheckOffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Delivery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/MilkOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/availOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Offer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/Wallet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/co.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/co.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/eWallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Capstone/ShoppingCart/eWallet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
